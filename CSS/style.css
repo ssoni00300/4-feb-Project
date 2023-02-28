@@ -1,0 +1,83 @@
+*{
+    margin: 0 5px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding: 5px 0.2%;
+    height: 15vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+nav .Contact-button{
+    margin: 0 0 0 660px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    font-weight: 800;
+    margin-left: 45px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background: none;
+}
+
+button{
+    background: #5955b3;
+    padding: 0.8rem 1.9rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    width: fit-content;
+    border: none;
+    border-radius: 7px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Left-Section{
+    margin-top: 30px;
+}
+
+.Left-Section h1{
+    color: #3c2e60;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: 1200;
+}
+
+span{
+    color: #5955b3;
+}
+
+.See-our-services-btns{
+margin: 55px 3px;
+}
+
+.Right-Section{
+    text-align: right;
+}
+
+.Right-Section img{
+    width: 86%;
+}
